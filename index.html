@@ -9,14 +9,15 @@
 </head>
 <body>
     <div class = "outer-container">
+        <!--Header-->
         <div class="top-bar">
-            <h4>View Highscores</h4>
+            <h4 id = "view-highscores">View Highscores</h4>
             <h4 class = "time">Time:<span id = "timer"></span></h4>
 
         </div>
-
-        <div id = "start-container" class = "show">
-            <div class="start">
+        <!--Start Page-->
+        <div id = "start-container" class = "hide">
+            <div class="container start">
                 <h1>Code Quiz</h1>
                 <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
                 <button class = "btn start" id = "start-btn">Start Quiz</button>
@@ -24,13 +25,11 @@
 
         </div>
 
-        <div id="questions-container" class = "show">
-            <div id="questions">Question</div>
-            <div id = "answer-buttons" class = "btn-grid">
-                <button class = "btn">Answer 1</button>
-                <button class = "btn">Answer 1</button>
-                <button class = "btn">Answer 1</button>
-                <button class = "btn">Answer 1</button>
+        <!--Questions Page-->
+        <div id="question-container" class="hide">
+            <div class="container questions">
+                <div id="question"></div>
+                <div id="answer-buttons" class="btn-grid"></div>
             </div>
         </div>
 
