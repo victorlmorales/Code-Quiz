@@ -113,3 +113,47 @@ p {
     text-align: left;
 }
 
+/*Button Styling */
+.btn {
+    background: var(--primary);
+    color: var(--secondary);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: var(--accent);
+    color: var(--primary);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:active {
+    border: none;
+    outline: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 5px;
+    margin: 20px 0;
+}
+
+.startend {
+   width: 25%;
+   margin-top: 10px;
+}
+
+.answerbtn {
+   width: 50%;
+   text-align: left;
+   font-size: 3.0vw;
+}
+
