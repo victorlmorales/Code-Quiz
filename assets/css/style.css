@@ -157,3 +157,57 @@ p {
    font-size: 3.0vw;
 }
 
+/* correct/wrong styling */
+
+.banner {
+    font-size: 25px;
+    text-align: center;
+    color: var(--accent);
+    font-style: italic;
+    margin: 0 100px;
+}
+ 
+.banner h2 {
+  border-top: 2px solid var(--accent);
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* List for High Scores */
+
+ol {
+  list-style-type: number;
+}
+
+li:nth-child(odd) {
+   background-color: var(--accent);
+}
+
+
+li {
+  font-size: 4.0vw;
+}
+
+/* media query for smaller screens */
+
+@media screen and (max-width: 1024px) {
+
+  .btn {
+      width: 100%;
+      font-size: 3.0vw;
+  }
+
+  #question {
+      font-size: 4.5vw;
+  }
+
+  h1 {
+      font-size: 4.5vw;
+  }
+
+  p {
+      font-size: 3.0vw;
+  }
+
+}
